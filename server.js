@@ -40,7 +40,7 @@ app.post('/',rendedatabase)
 app.get('/favorite-quotes',rendermyfav)
 app.get('/favorite-quotes/:quote_id',renderdetails)
 app.put('/favorite-quotes/:quote_id',editone);
-app.put('/favorite-quotes/:quote_id',deleteone);
+app.delete('/favorite-quotes/:quote_id',deleteone);
 
 
 // callback functions
