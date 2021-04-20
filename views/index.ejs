@@ -7,7 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-    <header></header>
+    <header>
+        <!-- <ul>
+        <a href="/"><li>home page</li></a>
+        <a href="/favorite-quotes"><li>favorite-quotes</li></a></ul> -->
+
+       <%- include('layout/header')%>
+    </header>
     <main>
         <% data.forEach(el=>{ %>
        <div>

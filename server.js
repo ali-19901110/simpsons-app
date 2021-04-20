@@ -104,7 +104,7 @@ function deleteone(req,res){
     let id=req.body.id;
     let sql ='delete from mytable where id=$1'
     client.query(sql,[id]).then(()=>{
-        res.redirect('/');
+        res.redirect('/favorite-quotes');
     })
 
 }
